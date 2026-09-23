@@ -1,5 +1,16 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
-	shallow = true
+	url = https://github.com/teaching-datascience/teaching-datascience.r-universe.dev
 	branch = HEAD
+[submodule "DataScienceExercises"]
+	path = DataScienceExercises
+	url = https://github.com/teaching-datascience/DataScienceExercises
+	branch = main
+[submodule "ggcheck"]
+	path = ggcheck
+	url = https://github.com/rstudio/ggcheck
+	branch = v0.0.5
+[submodule "gradethis"]
+	path = gradethis
+	url = https://github.com/rstudio/gradethis
+	branch = v0.2.14
